@@ -3,42 +3,42 @@ OpenCV version: 4.6.0
 ---------------------------
 Tracking
 
-ORB Extraction: 102.07866$\pm$29.46385
-Stereo Matching: 5.67309$\pm$2.75773
-Pose Prediction: 28.02394$\pm$32.53445
-LM Track: 20.89374$\pm$17.38718
-New KF decision: 0.35660$\pm$0.62985
-Total Tracking: 159.70923$\pm$52.44322
+ORB Extraction: 36.23209$\pm$7.47922
+Stereo Matching: 3.00848$\pm$0.86391
+Pose Prediction: 10.23471$\pm$9.15674
+LM Track: 7.36033$\pm$3.83689
+New KF decision: 0.11534$\pm$0.19630
+Total Tracking: 58.60004$\pm$12.70547
 
 Local Mapping
 
-KF Insertion: 49.80507$\pm$22.13396
-MP Culling: 0.41730$\pm$0.47712
-MP Creation: 13.75393$\pm$11.91418
-LBA: 658.28888$\pm$672.33541
-KF Culling: 4.50932$\pm$4.14678
-Total Local Mapping: 557.46497$\pm$655.11689
+KF Insertion: 24.18744$\pm$4.43391
+MP Culling: 0.21627$\pm$0.12653
+MP Creation: 3.70194$\pm$2.42829
+LBA: 182.39754$\pm$147.36022
+KF Culling: 0.95761$\pm$0.70033
+Total Local Mapping: 181.83363$\pm$151.10313
 ---------------------------
 
 LBA complexity (mean$\pm$std)
-LBA Edges: 2432.65517$\pm$1403.98996
-LBA KF optimized: 15.51724$\pm$8.66073
-LBA KF fixed: 1.74138$\pm$3.69790
+LBA Edges: 773.19355$\pm$303.77755
+LBA KF optimized: 8.32258$\pm$3.52308
+LBA KF fixed: 3.25806$\pm$4.18112
 LBA MP: nan$\pm$nan
 
-LBA executions: 58
-LBA aborts: 50
+LBA executions: 31
+LBA aborts: 24
 ---------------------------
 
 Map complexity
-KFs in map: 34
-MPs in map: 1342
+KFs in map: 21
+MPs in map: 242
 ---------------------------
 
 Place Recognition (mean$\pm$std)
-Database Query: 5.53657$\pm$7.27927
-SE3 estimation: 12.84693$\pm$17.06521
-Total Place Recognition: 11.90041$\pm$20.48635
+Database Query: 1.95896$\pm$3.00009
+SE3 estimation: 1.36538$\pm$1.98656
+Total Place Recognition: 1.79497$\pm$3.40934
 
 
 Loop Closing (mean$\pm$std)

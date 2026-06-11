@@ -41,7 +41,6 @@ Camera.width: 848
 Camera.height: 480
 
 Camera.fps: 30
-Camera.bf: 40.41
 
 Camera.RGB: 0
 
@@ -75,24 +74,6 @@ ORBextractor.scaleFactor: 1.2
 ORBextractor.nLevels: 8
 ORBextractor.iniThFAST: 20
 ORBextractor.minThFAST: 7
-
-#============================================================================================
-# Feature Matching Parameters
-#============================================================================================
-
-#feature_matching:
-#  match_ratio: 0.7
-#  max_descriptor_distance: 0.6
-#  cross_check: false
-
-#============================================================================================
-# Pose Estimation Parameters
-#============================================================================================
-
-#pose_estimation:
-#  ransac_reprojection_error_threshold: 3.0
-#  max_iterations: 500
-#  confidence: 0.99
 
 
 #============================================================================================
